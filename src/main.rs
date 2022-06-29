@@ -2,7 +2,7 @@ use std::{thread, time};
 
 fn main() {
     let half_second = time::Duration::from_millis(500);
-
+    // UMMMMMMMMMMMMMMMMMMMMMMMMMMM ADDING COMMENT LOL
     // let mut ferrari = build_car(100, 5, None);
     // let mut jetta = build_car(50, 10);
     let mut ferrari = build_car(75, 5, &String::from("Ferrari"));
