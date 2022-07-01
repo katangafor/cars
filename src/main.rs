@@ -72,6 +72,7 @@ impl Car {
         // speed so that you'll get end up at the right distance
         if expected_self_position > comfortable_follow_distance {
             let appropriate_speed_difference = expected_self_position - comfortable_follow_distance;
+            // Please check your units
             self.speed -= appropriate_speed_difference;
         }
         self.x = self.x + self.speed;
